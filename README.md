@@ -1,6 +1,9 @@
 go-immutable-radix [![CircleCI](https://circleci.com/gh/hashicorp/go-immutable-radix/tree/master.svg?style=svg)](https://circleci.com/gh/hashicorp/go-immutable-radix/tree/master)
 =========
 
+This is a fork of [hashicorp/go-immutable-radix](https://github.com/hashicorp/go-immutable-radix) with the capability to encode and decode radix tree to and from byte slice.
+=========
+
 Provides the `iradix` package that implements an immutable [radix tree](http://en.wikipedia.org/wiki/Radix_tree).
 The package only provides a single `Tree` implementation, optimized for sparse nodes.
 
